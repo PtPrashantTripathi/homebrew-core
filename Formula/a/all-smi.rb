@@ -1,8 +1,8 @@
 class AllSmi < Formula
   desc "GPU monitoring tool for NVIDIA/Jetson/Apple Silicon/Tenstorrent"
   homepage "https://github.com/lablup/all-smi"
-  url "https://github.com/lablup/all-smi/archive/refs/tags/v0.28.1.tar.gz"
-  sha256 "611fd1efb0909fdbbb8371612988578a9fa515eb99f4b3200b2237eaf17c82aa"
+  url "https://github.com/lablup/all-smi/archive/refs/tags/v0.29.0.tar.gz"
+  sha256 "09804d21c21501cd67c994e47f95381534f246783734ca4d6535251c331b0ba3"
   license "Apache-2.0"
   head "https://github.com/lablup/all-smi.git", branch: "main"
 
