@@ -7,14 +7,13 @@ class Qtbase < Formula
     "BSD-3-Clause", # *.cmake
     "GFDL-1.3-no-invariants-only", # *.qdoc
   ]
-  revision 2
   compatibility_version 1
   head "https://code.qt.io/qt/qtbase.git", branch: "dev"
 
   stable do
-    url "https://download.qt.io/official_releases/qt/6.12/6.12.0/submodules/qtbase-everywhere-src-6.12.0.tar.xz"
-    mirror "https://qt.mirror.constant.com/archive/qt/6.12/6.12.0/submodules/qtbase-everywhere-src-6.12.0.tar.xz"
-    sha256 "a951bd163c7b80fc6b8c88d7668fb56abf91c152373e13c10666763238131307"
+    url "https://download.qt.io/official_releases/qt/6.12/6.12.1/submodules/qtbase-everywhere-src-6.12.1.tar.xz"
+    mirror "https://qt.mirror.constant.com/archive/qt/6.12/6.12.1/submodules/qtbase-everywhere-src-6.12.1.tar.xz"
+    sha256 "cd837bb9fd631e20439a04eaa0c2f252f19ad92fdf5adf10229d0fbc2fab2d53"
 
     # Backport to support md4c 0.6.0
     patch do
